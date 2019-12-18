@@ -1,0 +1,108 @@
+body
+{
+    background-color: #B0EA7C !important;
+}
+.main-div
+{
+    padding: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #fff;
+    box-shadow: 5px 5px 58px rgb(0,0,0,0.16);
+    width: 90%;
+}
+.main-links
+{
+    margin-top: 1em;
+    text-align:center;
+    font-size: 25px; 
+    color: #13C429;
+    text-decoration: none;
+    transition-duration: 250ms;
+}
+.main-links:hover{
+    color: #0D801C;
+    text-decoration: none;
+}
+.info{
+   font-size: 18px; 
+    color: #13C429;
+}
+.pickpizza
+{
+    margin-top: 1em;
+    font-size: 23px;
+    line-height: 30px;
+    border-bottom: 2px solid #396E57;
+    border-top: 2px solid #396E57;
+    padding: 1em;
+}
+.pickpizza select{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.pickpizza input{
+    margin: 1em;
+}
+.pizzadesc
+{
+    width: 90%;
+   margin-top: 1em; 
+    font-size: 20px;
+    border-bottom: 2px solid #396E57;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pizzah1
+{
+    color: #396E57;
+    font-size: 25px;
+}
+.addpizza{
+    color: #396E57;
+    transition-duration: 250ms;
+}
+.addpizza:hover{
+    color: #5EAD68;
+}
+.catadd
+{
+    margin-top: 1em;
+    text-align: center;
+}
+.cart{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+table {
+  border-collapse: collapse;
+    width: 100%;
+    margin-top: 2em;
+}
+
+table, th, td {
+  border-bottom: 1px solid #396E57;
+}
+th, td
+{
+    padding: 10px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: #f5f5f5;}
+.summary
+{
+    background-color: #fff;
+    color: black;
+}
+th {
+  background-color: #5EAD68;
+  color: white;
+}
+.orderinfo
+{
+    padding: 1em;
+    font-size: 20px;
+}
